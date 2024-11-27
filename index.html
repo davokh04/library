@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <dialog>
+        <form>
+            <ul>
+                <li>
+                    <label class="book-title">TITLE</label>
+                    <input type="text" id="book-title" required>
+                </li>
+                <li>
+                    <label class="book-author">AUTHOR</label>
+                    <input type="text" id="book-author" required>
+                </li>
+                <li>
+                    <label class="book-pages">PAGES</label>
+                    <input type="text" id="book-pages" required>
+                </li>
+                <li>
+                    <label>
+                        Have you read it?
+                        <select>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </label>
+                </li>
+            </ul>
+            <div>
+                <button>Confirm</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </form>
+    </dialog>
+    <div class="container">
+        <div>
+            <p>Welcome to your library!</p>
+            <button class="addBook">Add a book</button>
+        </div>
+        <div class="books-container">
+            
+        </div>
+    </div>
+
+</body>
+</html>
